@@ -12,7 +12,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
           
@@ -26,14 +26,32 @@
       
 .profile-picture
 {
-    width: 40px;
-    border-radius: 40px;
+    width: 36px;
+    border-radius: 36px;
 
 }
 
 .thumbnail-row
 {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-time
+{
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 5px;
+    bottom: 8px;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
 }
 
 .video-author, .video-stats
